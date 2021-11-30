@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Feid</title>
+</head>
+<body>
+	<main class="principal">
+		<header id="fondo-header">
+			<h1>ENCUESTA</h1>
+			<div>
+				<img src="images/feid7.jpg" alt="BSB" class="imgTitulo">
+			</div>
+		</header>
+		<nav>
+			<ul>
+				<li><a href="formulario.html">Encuesta</a></li>
+				<li><a href="index.html">Inicio</a></li>
+				<li><a href="songs.html">Cansiones</a></li>
+				<li><a href="history.html">Historia</a></li>
+			</ul>
+		</nav>
+        <form>
+            <h2>Formulario sobre FEID</h2>
+            <p>Vamos a ver que tanto sabes del artista colombiano FEID</p><br>
+            
+            <label for="nombre">Nombre completo de FEID: </label>
+            <input type="text" id="nombre" value="" required><br><br>
+            
+            <label for="edad">Edad de FEID: </label>
+            <input type="number" name="edad" id="edad" placeholder=""><br><br>
+
+            <label for="date">Fecha de nacimiento de FEID: </label>
+            <input type="date" name="fechas" id="date"><br><br>
+            
+            <label for="email">Correo electronico tuyo: </label>
+            <input type="email" name="email" id="email" required><br><br>
+            
+            <label for="tel">Telefono tuyo: *</label>
+            <input type="tel" name="telefono" id="tel" placeholder=""><br><br>
+            <div>
+                <p>Dedes de plataforma estas usando la pagina</p>
+                <input type="radio" name="conect" id="internet"> 
+                <label for="internet">Pc</label>
+                <input type="radio" name="conect" id="whatsapp"> 
+                <label for="whatsapp">Tablet</label>
+                <input type="radio" name="conect" id="Celular"> 
+                <label for="Celular">Celular</label>
+            </div><br>
+            
+            <p>Ciudad de nacimiento de FEID</p>
+            <select name="ciudad">
+              <option value="armenia">Armenia</option> 
+              <option value="manizales">Manizales</option>
+              <option value="pereira">Pereira</option>
+              <option value="medellin">Medellín</option> 
+            </select><br><br>
+           
+            <label>Escriba su mensaje:</label><br>
+            <textarea rows="10" cols="80"></textarea><br>
+    
+    
+            <input type="reset" value="Borrar">
+            <input type="submit" value="Enviar">
+        </form>
+</main>
+<footer>
+    <p>Página realizada por Samuel lopez muñoz. &copy; 2021</p>
+</footer>
+</body>
+</html>

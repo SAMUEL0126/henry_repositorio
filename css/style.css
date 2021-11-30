@@ -1,0 +1,120 @@
+*{  
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: url("../images/feid10.jpg") 30px 40px;
+
+}
+
+h1{
+    font-size: 50px;
+    margin: 20px 0;
+    color: #000;
+}
+
+
+nav{
+    height: 80px;
+    border-top: 1px solid #c71212;
+    border-bottom: 1px solid #c71212;
+    background: #c71212;
+    margin: 20px 0;
+}
+
+nav ul{
+    width: 360px;
+    margin: 0 auto;
+}
+
+nav ul li{
+    display: inline; 
+    list-style: none;  
+}
+
+nav ul li a{
+    text-decoration: none;  
+    color: #c71212;
+    background:#FFF;
+    line-height: 80px;
+    padding: 7px;
+    margin:0 5px;
+    border-radius: 5px;
+    box-shadow:2px 2px 2px #333; 
+    font-weight: bold;
+}
+
+nav ul li a:hover{   
+    color: #FFF;
+    background: #000;
+    box-shadow: 0 0 0 #000;
+}
+
+section{
+    padding:0 30px 20px;
+}
+
+section div{
+    text-align: center;
+}
+
+section div img{
+    width: 500px; 
+    margin: 20px;
+}
+
+section p{
+    text-align: justify;
+}
+
+h2{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color:#000;
+}
+
+footer{
+    background: #c71212;
+    color: #FFF;
+    text-align: center;
+    padding: 20px;
+}
+
+span{
+    font-weight: bold;
+}
+
+
+#fondo-header{
+    text-align: center;
+}
+
+
+.principal{
+    width: 1000px;  
+    margin: 20px auto;
+    border: 2px solid #c71212;
+    box-shadow: 3px 3px 3px #333;
+    border-radius: 10px;
+    background: #FFF;
+}
+
+.imgTitulo{
+    width: 400px;
+}
+
+.imgCenter, .centrado{
+    text-align: center;
+    margin:10px;
+}
+
+form{
+    text-align: center;
+    text-decoration: none;  
+    color: #000000;
+    background:rgb(248, 248, 248);
+   
+}
